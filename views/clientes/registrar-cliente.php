@@ -70,7 +70,7 @@ require_once "../../app/config/App.php";
         //algoritmo para guadar
         //GET = URLSearchParams() / {}
         //POST = FormData()
-        shoToast("Guardado Correctamente", "SUCCESS" ,1000, "./listar-cliente"); 
+        showToast("Guardado Correctamente", "SUCCESS" ,1000, "./listar-cliente"); 
       }
       
       });
