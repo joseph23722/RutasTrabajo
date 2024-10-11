@@ -6,7 +6,7 @@ const VERSION = "1.0.0";
 date_default_timezone_set('America/Lima');
 
 //Metodos comunes 
-function renderContenerheader($title = "" , $root = "")
+function renderContenerheader($title = "" , $root = "",$path = "")
 {
   return "
   <div class='content-header'>
@@ -17,7 +17,7 @@ function renderContenerheader($title = "" , $root = "")
             </div><!-- /.col -->
             <div class='col-sm-6'>
               <ol class='breadcrumb float-sm-right'>
-                <li class='breadcrumb-item'><a href='#'>{$root}</a></li>
+                <li class='breadcrumb-item'><a href='{$path}'>{$root}</a></li>
                 <li class='breadcrumb-item active'>{$title}</li>
               </ol>
             </div><!-- /.col -->
