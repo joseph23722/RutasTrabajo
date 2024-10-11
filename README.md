@@ -15,9 +15,8 @@
 - [ ] Tarea 3
 
 
-**Negrita**
 *cursiva* _cursiva_
-
+**negrita** __negrita__
 ```
 Este es un bloque tipo cita
 ```
@@ -125,3 +124,5 @@ public class Program
     }
 }
 ```
+
+
